@@ -47,15 +47,11 @@ table {
 	border-spacing: 0;
 }
 
-/* end of reset */
-
-
 
 body {
 	font: normal normal 400;
 	font-size: 80%;
 	line-height: 1.5em;
-	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Verdana,sans-serif;
 	margin-top: 1em;
 	margin-left: 1em;
@@ -63,46 +59,60 @@ body {
 
 p {
 	position: relative;
-	left: 33%;
+	left: 20%;
 	margin-bottom: 0.7em;
 	margin-right: 0;
-	width: 65%;
+	width: 77%;
 }
+
+h1,h2,h3,h4 {
+	font-weight: 400;
+	font-family: Cousine,Verdana,sans-serif;
+	
+}
+
+h1 {
+	font-size: 2.5em;
+	line-height: 1em;
+	position: relative;
+	left: 20%;
+	width: 77%;
+}
+
+h2 {
+	position: relative;
+	width: 17%;
+	text-align: right;
+	font-size: 1.1em;
+}
+
+h3 {
+	font-size: 1em;
+	line-height:1em; 
+	top: 1.7em;
+}
+
 
 code {
 	font: normal normal;
-	font-size: 60%;
-	/*line-height: 1em;*/
+	font-size: 80%;
 	font-family: Menlo,monospace,sans-serif;
-	color: #aaa;
+	color: #555;
+	width: 17%;
 }
 
 p code {
 	position: absolute;
-	left: -14%;
+	text-align: right;
+	left: -21%;
 }
-
 
 ul { 
 	position: relative;
-	left: 33%;
-	width: 65%;
+	left: 20%;
+	width: 77%;
 	margin-bottom: 1.5em;
 	margin-top: -0.5em;
-}
-
-/*uncomment to get dashes in the list*/
-/*li:before {
-	content: "-";
-	position: relative;
-	left: -0.25em;
-}*/
-
-li {
-	/*second line indent*/
-	padding-left: 1.25em;
-	text-indent: -1.25em;
-	/*color: #777;*/
 }
 
 li ul {
@@ -112,69 +122,30 @@ li ul {
 	margin-top: 0.25em;
 }
 
-h1,h2,h3,h4 {
-	font-weight: 400;
-	font-family: Cousine,Verdana,sans-serif;
-	width: 65%;
-}
-
-h1 {
-	text-align: left;
-	font-size: 3em;
-	line-height: 1em;
-	position: relative;
-	left: 33%;
-}
-
-h1+p { 
-	/*subtitle*/
-	font-style: italic;
-	font-size: 110%;
-}
-
-h2 {
-	font-size: 1.1em;
-	color: #a00;
-	margin-top: 3em;
-	position: relative;
-	top: 1.4em;
-	text-align: right;
-	width: 20%;
-}
-
-h3 {
-	font-size: 1em;
-	line-height: 2em; 
-	position: relative;
-	top: 1.7em;
-	text-align: right;
-	width: 20%;
-}
-
-a {
-	color: inherit;
-	/*text-decoration:none*/
-}
-
 a:hover {
 	color:#39f
 }
 
-#webaddress {
+#contacts {
 	margin-top: 1em;
-	position: relative;
-	left: 33%;
-	color: #aaa;
 	font-family: Menlo,monospace,sans-serif;
 	font-size: 80%;
 }
 
-#webaddress a {
+#contacts a {
 	text-decoration: none;
+}
+#githublogo {
+	
+	background-repeat: no-repeat;
+	background-size: 15px;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	background-image: url(github.svg);
 }
 
 em {
-	font-weight: bold;
 	font-style: italic;
 }
 
@@ -182,13 +153,3 @@ strong {
 	font-weight: bold;
 }
 
-#address {
-	display: none;
-}
-
-
-
-/*
-@media only screen and (max-width: 480px) {
-	make one column somehow...
-}*/
