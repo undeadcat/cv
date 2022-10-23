@@ -122,9 +122,10 @@ li ul {
 	margin-top: 0.25em;
 }
 
-a:hover {
+a, a:visited, a:hover, a:active {
 	color:#39f
 }
+
 
 #contacts {
 	margin-top: 1em;
