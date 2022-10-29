@@ -18,7 +18,7 @@ Software developer who's passionate about building a product for real users.
 Technical interests: highly available distributed systems, source code analysis, developer tooling.
 
 * __Languages__: Shipped production code in C#, Java, Kotlin, TypeScript, JavaScript. Minor or academic experience with F#, Ruby, Golang, C++, Scala.
-* __Databases / Data Stores__: MySQL, MS SQL, TiDB, PostgreSQL, Elasticsearch, MongoDB, Cassandra, Redis.
+* __Databases / Data Stores__: MySQL, MS SQL, Kafka, PostgreSQL, Elasticsearch, MongoDB, Cassandra, Redis.
 * __Methodologies / Practices__: pair programming, code review, TDD, continuous integration, microservice architecture.
 
 ## Work Experience
