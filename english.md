@@ -24,13 +24,14 @@ Technical interests: highly available distributed systems, source code analysis,
 ## Work Experience
 {: id="Experience"}
 `oct. 2019 - present`
-__Senior Software Engineer: Bolt__, Tallinn (Estonia)
+__Software Engineer: Bolt__, Tallinn (Estonia)
 
 __Rides team__: Building core services for ridehailing (search, dispatching, order management).
-* Led cross-team projects to deliver features: writing tech specs, ensuring clear communication, managing feature rollout.
-* Promoted from Software Engineer To Senior 2 months after moving to new team
-* Mentored 2 newjoiners
-* Maintaining code in more than 80 team-owned services (microservice architecture).
+* Promoted: **Senior** (Sep. 2021, 2 months after joining new team), **Staff Software Engineer** (Jan. 2023).
+* Led cross-functional projects to deliver features: writing tech specs, ensuring clear communication, leading development, managing feature rollout.
+* Led effort across 2 teams to successfully handle 2022 New Year's Eve peak peak load (10x+ regular peak).
+<!-- redis cluster? -->
+* Part of team responsible for 80+ microservices.
 
 __Campaigns team__: Worked on tools for internal users to manage in-app campaigns across all business verticals (ridehailing, rentals, delivery).
 * Started a project to convert a business-critical process from a batch job to MQ. Increased throughput (initially: 2x, later: 4x).
@@ -44,7 +45,7 @@ support for new language features, type resolution, etc.
 * Contributed to a 3rd-party plugin to support styled-components framework in Intellij IDEs.
 
 `june 2013 - july 2016`
-__Software Engineer: SKB Kontur__, Ekaterinburg (Russia)
+__Software Engineer: Kontur__, Ekaterinburg (Russia)
 
 __Kontur.Elba__ &mdash; a friendly web service to manage accounting for small businesses.
 
